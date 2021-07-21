@@ -1,0 +1,10 @@
+
+    spring:
+    application:
+        name: employeeTrainingMS
+server:
+    port: 8090
+    servlet:
+        context-path: /Employee Training
+        url: jdbc:mysql://localhost:3306/employeeTraining_db
+        
