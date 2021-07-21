@@ -1,0 +1,16 @@
+Service:
+    EMPLOYEES_FOUND: Employee already present.
+    EMPLOYEES_NOT_FOUND: No employees found.
+    EMPLOYEE_NOT_FOUND: Employee not found. Give valid employee details.
+UserInterface:
+    DELETE_SUCCESS: Employee details successfully deleted.
+    INSERT_SUCCESS: Employee details successfully added.
+    UPDATE_SUCCESS: Employee details successfully updated.
+    spring:
+    application:
+        name: employeeMS
+server:
+    port: 8080
+    servlet:
+        context-path: /Employee
+        url: jdbc:mysql://localhost:3306/employee_db
